@@ -44,29 +44,37 @@ li.combatant.enemy {
 }
 
 #combat #combat-tracker .combatant .token-initiative i,
-#combat #combat-tracker .combatant .token-initiative a {
+#combat #combat-tracker .combatant .token-initiative a,
+#combat-popout #combat-tracker .combatant .token-initiative i,
+#combat-popout #combat-tracker .combatant .token-initiative a {
   font-size: var(--lancer-initiative-icon-size);
 }
-#combat #combat-tracker .combatant .token-initiative i.done {
+#combat #combat-tracker .combatant .token-initiative i.done,
+#combat-popout #combat-tracker .combatant .token-initiative i.done {
   color: var(--lancer-initiative-done-color);
 }
 
-#combat #combat-tracker .combatant.player .token-initiative a {
+#combat #combat-tracker .combatant.player .token-initiative a,
+#combat-popout #combat-tracker .combatant.player .token-initiative a {
   color: var(--lancer-initiative-player-color);
 }
 
-#combat #combat-tracker .combatant.friendly .token-initiative a {
+#combat #combat-tracker .combatant.friendly .token-initiative a,
+#combat-popout #combat-tracker .combatant.friendly .token-initiative a {
   color: var(--lancer-initiative-friendly-color);
 }
-#combat #combat-tracker .combatant.neutral .token-initiative a {
+#combat #combat-tracker .combatant.neutral .token-initiative a,
+#combat-popout #combat-tracker .combatant.neutral .token-initiative a {
   color: var(--lancer-initiative-neutral-color);
 }
 
-#combat #combat-tracker .combatant.enemy .token-initiative a {
+#combat #combat-tracker .combatant.enemy .token-initiative a,
+#combat-popout #combat-tracker .combatant.enemy .token-initiative a {
   color: var(--lancer-initiative-enemy-color);
 }
 
-#combat #combat-tracker li.combatant.turn-done {
+#combat #combat-tracker li.combatant.turn-done,
+#combat-popout #combat-tracker li.combatant.turn-done {
   color: inherit;
   text-decoration: inherit;
 }
